@@ -42,7 +42,7 @@ Product.init(
         isNumeric: true,
       },
     },
-
+    //define category_id column
     category_id: {
       type: DataTypes.INTEGER,
       references: {
